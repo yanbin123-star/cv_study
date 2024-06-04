@@ -1,0 +1,6 @@
+./images/train2017/1.jpg
+./images/train2017/2.jpg
+./images/train2017/3.jpg
+./images/train2017/4.jpg
+./images/train2017/5.jpg
+./images/train2017/6.jpg
