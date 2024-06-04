@@ -54,9 +54,9 @@ def read_json(in_json_path,img_dir,target_dir):
 
 
 if __name__=="__main__":
-    img_dir = 'pictures/'
-    target_dir = 'testset/'
+    img_dir = 'pictures/'#图片路径
+    target_dir = 'testset/'#转化后文件保存路径
     if not os.path.exists(target_dir):
         os.mkdir(target_dir)
-    in_json_path = 'instances_val2017.json'
+    in_json_path = 'instances_val2017.json'#自己的json文件路径
     read_json(in_json_path,img_dir,target_dir)
